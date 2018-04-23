@@ -1,0 +1,29 @@
+body {
+  background-color: #EBEFEE;
+}
+
+.cont {
+  background-color: #418AB6;
+  width: 800px;
+  height: 600px;
+  margin: auto;
+  margin-top: 15px;
+  overflow: hidden;
+}
+
+.totem {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+.totemFloor {
+  background-color: rgb(249,228,139);
+  /* width: 200px; */
+  height: 100px;
+  margin: auto;
+  text-align: center;
+  line-height: 100px;
+  color: #418AB6;
+  font-family: Lucida Console;
+  font-size: 21px;
+  transform: translateY(-50);
+}
