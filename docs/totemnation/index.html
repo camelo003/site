@@ -8,24 +8,39 @@
   <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/p5.js'></script>
   <script src='https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.6.0/addons/p5.dom.js'></script>
   <script src="js/index.js"></script>
+  <link href="https://fonts.googleapis.com/css?family=Black+Han+Sans" rel="stylesheet">
 </head>
 
 <body>
   <div class="menu" id="myHeader">
-    <h1>totemnation (temp)</h1>
-    <a class="menuLink" href=".">home</a>
-    <a class="menuLink" href=".">about</a>
+    <div style="width: 1100px;margin:auto;display:inline-flex;">
+      <!-- <h1 style="width: 260px;">TOTEMNATION</h1> -->
+      <a href="."><img src="/images/totemnationLogo.gif"></img></a>
+      <a class="menuLink" href="." style="width: 115px;">HOME</a>
+      <a class="menuLink" href="." style="width: 115px;">ABOUT</a>
+    </div>
   </div>
   <div id="p5_loading" class="loadingclass">
-    <img style="display: block; margin: auto;" src="http://camelo.design/totemnation/images/loading.gif" alt="Carregando..."></img>
+    <img style="display: block; margin: auto;" src="/images/loading.gif" alt="Carregando..."></img>
   </div>
   <div id="container">
 
   </div>
   <div class="menu" id="myFooter">
-    <footer>
-      <p>hello footer!</p>
-    </footer>
+    <div style="margin:auto;display:inline-flex;">
+      <div id="footerSpacer1"style="width:187px;"></div>
+      <div id="feitoCom">
+        <h6>Feito com</h6>
+        <a href="http://wickeditor.com/"><img style="width:44px;height:43px;" src="/images/wick.svg"></img></a>
+        <a href="https://p5js.org/"><img style="width:96px;height:43px;margin-left:39px;" src="/images/p5js.svg"></img></a>
+      </div>
+      <div id="footerSpacer2" style="width:106px;"></div>
+      <div id="parceria">
+        <h6>Parceria</h6>
+        <a href="http://quantaacademia.com/"><img style="width:103px;height:34px" src="/images/quanta.png"></img></a>
+      </div>
+      <div id="footerSpacer3" style="width:530px;"></div>
+    </div>
   </div>
 
 </body>

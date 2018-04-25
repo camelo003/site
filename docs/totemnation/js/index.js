@@ -2,12 +2,12 @@
 TO-DOS:
 1. [ok] Qtde. de "totem steps" dinâmica;
 2. [ok] Repetir primeiras entradas;
-3. [  ] Calcular loop dinamicamente;
-4. [  ] Pause quando enquanto 'over';
+3. [ok] Calcular loop dinamicamente;
+4. [ok] Pause quando enquanto 'over';
 5. [  ] Ordem randômica;
 6. [ok] Puxar gifs.
 7. [ok] Loading (https://github.com/processing/p5.js/wiki/p5.js-overview#loading-screen)
-8. [  ] reestruturar o totem:
+8. [ok] reestruturar o totem:
         -uma div para o totem
           -uma div para o andar
             -o gif
