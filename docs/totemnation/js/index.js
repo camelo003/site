@@ -1,17 +1,21 @@
 /*
 TO-DOS:
-1. [ok] Qtde. de "totem steps" dinâmica;
-2. [ok] Repetir primeiras entradas;
-3. [ok] Calcular loop dinamicamente;
-4. [ok] Pause quando enquanto 'over';
-5. [  ] Ordem randômica;
-6. [ok] Puxar gifs.
-7. [ok] Loading (https://github.com/processing/p5.js/wiki/p5.js-overview#loading-screen)
-8. [ok] reestruturar o totem:
+01 [ok] Qtde. de "totem steps" dinâmica;
+02 [ok] Repetir primeiras entradas;
+03 [ok] Calcular loop dinamicamente;
+04 [ok] Pause quando enquanto 'over';
+05 [  ] Ordem randômica;
+06 [ok] Puxar gifs.
+07 [ok] Loading (https://github.com/processing/p5.js/wiki/p5.js-overview#loading-screen)
+08 [ok] Reestruturar o totem:
         -uma div para o totem
           -uma div para o andar
             -o gif
             -o link
+09 [ok] Cores!
+10 [ok] Scroll steps! (naquelas)
+11 [ok] Links style!
+12 [  ] Arrumar scroll para amboas os lados!
 
 */
 
@@ -39,7 +43,7 @@ function initAndFillDiv(entrie){
   img.parent(floor);
   img.style("width","400px");
   img.style("height","180px");
-  var link = createA(entrie.link,entrie.credit);
+  var link = createA(entrie.link,entrie.credit,"_blank");
   link.class("link");
   link.parent(floor);
 }
@@ -66,16 +70,22 @@ function mouseClicked(){
 
 function overUpdate(status){
   if(status){
-    vel = vel - 0.02;
+    vel = vel - 0.05;
     if(vel < 0){
       vel = 0.0;
     }
   }else{
-    vel = vel + 0.02;
+    vel = vel + 0.05;
     if(vel > 0.5){
       vel = 0.5;
     }
   }
+}
+
+var scrollInc = 0.0;
+
+function mouseWheel(event) {
+  scrollInc = event.delta;
 }
 
 function preload(){
@@ -111,7 +121,15 @@ function draw(){
   var b = a[5];
   var c = b.slice(0,-1);
   var d = parseFloat(c);
+
+  overUpdate(isOverTotem);
+
   var e = d - vel;
+
+  if(isOverTotem){
+    e = e - Math.abs(scrollInc);
+  }
+
   totem.style("transform", "matrix(1, 0, 0, 1, 0, " + e + ")");
   } //read, increment and update css translation!
 
@@ -122,5 +140,6 @@ function draw(){
        }
   } //check and loop translation!
 
-  overUpdate(isOverTotem);
+  //reset scrollInc
+  scrollInc = 0;
 }
