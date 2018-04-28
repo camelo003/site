@@ -16,8 +16,15 @@ TO-DOS:
 10 [ok] Scroll steps! (naquelas)
 11 [ok] Links style!
 12 [  ] Arrumar scroll para amboas os lados!
+13 [  ] Nova resolucao
+14 [  ] Gabarito + modelo
+15 [  ] Presentations
+16 [  ] Formulário
 
 */
+var gifWidth = 400;
+var gifHeight = 300;
+
 
 var comtainer;
 var totem;
@@ -42,7 +49,7 @@ function initAndFillDiv(entrie){
   var img = createImg(entrie.json.data.images.original.url);
   img.parent(floor);
   img.style("width","400px");
-  img.style("height","180px");
+  img.style("height","225px");
   var link = createA(entrie.link,entrie.credit,"_blank");
   link.class("link");
   link.parent(floor);
@@ -109,7 +116,7 @@ function setup(){
     initAndFillDiv(entries[i]);
   }
 
-  fillComplete(Math.ceil(500/180));
+  fillComplete(Math.ceil(500/225));
 
   totem.mouseOver(overTotem);
   totem.mouseOut(outTotem);
@@ -135,7 +142,7 @@ function draw(){
 
   {
     //(180 for totem floor height)
-    if(e < -(180*entries.length)+1){
+    if(e < -(225*entries.length)+1){
        totem.style("transform", "matrix(1, 0, 0, 1, 0, 0)");
        }
   } //check and loop translation!
