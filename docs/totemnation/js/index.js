@@ -32,7 +32,7 @@ var isOverTotem = false;
 
 var entries = [
   {key: "3HDgoMoeold2Xmv8vH", credit: "Bruno Augusto Voginski (Karx)", link: "k4rx.tumblr.com"},
-  {key: "3o751YFJcflc0SOBS8", credit: "Pedro Miranda Filho", link: "https://giphy.com/pedromirfilho/"},
+  {key: "1zgdaD2EEOWxP7yXUb", credit: "Ágatha Tarrataca", link: "https://agathatarrataca.wordpress.com/"},
   {key: "1yMfhX748Xzo5fF2d4", credit: "Pedro Miranda Filho", link: "https://giphy.com/pedromirfilho/"},
   {key: "26gN0Jn614shuSf2U", credit: "Pedro Miranda Filho", link: "https://giphy.com/pedromirfilho/"},
   {key: "3o752gFScyte7n6fCM", credit: "Pedro Miranda Filho", link: "https://giphy.com/pedromirfilho/"},
