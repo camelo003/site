@@ -33,7 +33,8 @@ var isOverTotem = false;
 var entries = [
   {key: "3HDgoMoeold2Xmv8vH", credit: "Bruno Augusto Voginski (Karx)", link: "k4rx.tumblr.com"},
   {key: "1zgdaD2EEOWxP7yXUb", credit: "Ágatha Tarrataca", link: "https://agathatarrataca.wordpress.com/"},
-  {key: "g0NmaZ5VJmAM47fhhn", credit: "Alexandre Gonçalves", link: "https://giphy.com/channel/peixe180graus"}
+  {key: "g0NmaZ5VJmAM47fhhn", credit: "Alexandre Gonçalves", link: "https://giphy.com/channel/peixe180graus"},
+  {key: "1yiPbbKa8bk7TyNJhh", credit: "Gabriel Camelo", link: "https://plus.google.com/+GabrielCamelo"}
 ];
 
 var vel = 0.5;
