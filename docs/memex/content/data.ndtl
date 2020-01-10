@@ -6,9 +6,15 @@ KOMAKO
   FILE : 20191215komako.gif
   TAGS : ref, oyo
   
-PURE DATA
+PURE DATA BUG FIX
   AUTH : sdaau_ml
   LINK : https://forum.pdpatchrepo.info/topic/7655/alsa-output-error-snd-_pcm-_open-device-or-resource-busy/11`
   QOTE : "I finally found out how to run PureData under Pulseaudio"
   TYPE : quote
   TAGS : puredata, solution
+
+SYNTH READS
+  LINK : https://www.reddit.com/r/edmproduction/comments/46ktob/learning_about_synthsmusic_with_pure_data/
+  TYPE : book
+  TAGS : synth, music
+    
