@@ -1,4 +1,4 @@
-var DATABASE = `
+var DATABASE = '
 KOMAKO
   AUTH : @ronyaib
   LINK : https://www.reddit.com/r/gamedev/comments/eal2z8/were_working_on_komako_a_handdrawn_adventure_game/
@@ -28,6 +28,4 @@ PROGRAMMING ELECTRONIC MUSIC IN PD
   AUTH : Johannes Kreidler
   LINK : http://www.pd-tutorial.com/english/
   TAGS : synth
-  
-  
-  `
+'
