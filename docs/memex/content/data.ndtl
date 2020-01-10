@@ -9,6 +9,6 @@ KOMAKO
 PURE DATA
   AUTH : sdaau_ml
   LINK : https://forum.pdpatchrepo.info/topic/7655/alsa-output-error-snd-_pcm-_open-device-or-resource-busy/11`
-  TYPE : quote
   QOTE : "I finally found out how to run PureData under Pulseaudio"
+  TYPE : quote
   TAGS : puredata, solution
