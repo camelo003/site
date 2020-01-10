@@ -1,11 +1,11 @@
-var DATABASE = '
+var DATABASE = `
 KOMAKO
   AUTH : @ronyaib
   LINK : https://www.reddit.com/r/gamedev/comments/eal2z8/were_working_on_komako_a_handdrawn_adventure_game/
   TYPE : game
   FILE : 20191215komako.gif
   TAGS : ref, oyo
-  
+
 PURE DATA BUG FIX
   AUTH : sdaau_ml
   LINK : https://forum.pdpatchrepo.info/topic/7655/alsa-output-error-snd-_pcm-_open-device-or-resource-busy/11`
@@ -17,15 +17,15 @@ SYNTH READS
   LINK : https://www.reddit.com/r/edmproduction/comments/46ktob/learning_about_synthsmusic_with_pure_data/
   TYPE : book
   TAGS : synth, music
-  
+
 DESIGNING SOUND
   AUTH : Farnell
   LINK : https://mitpress.ublish.com/book/designing-sound
   TYPE : book
   TAGS : synth
-  
+ 
 PROGRAMMING ELECTRONIC MUSIC IN PD
   AUTH : Johannes Kreidler
   LINK : http://www.pd-tutorial.com/english/
   TAGS : synth
-'
+`
