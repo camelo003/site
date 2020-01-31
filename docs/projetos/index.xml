@@ -6,34 +6,9 @@
     <description>Recent content in Projetos on Camelo Design</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>pt-br</language>
-    <lastBuildDate>Mon, 07 Jan 2019 12:35:11 -0500</lastBuildDate>
     
 	<atom:link href="/projetos/index.xml" rel="self" type="application/rss+xml" />
     
-    
-    <item>
-      <title>Projeto 1</title>
-      <link>/projetos/projeto1/</link>
-      <pubDate>Mon, 07 Jan 2019 12:35:11 -0500</pubDate>
-      
-      <guid>/projetos/projeto1/</guid>
-      <description>&amp;lt; voltar para Projetos
-Projeto 1 - lorem
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat ut dolor ullamcorper condimentum. Nulla leo arcu, varius et elit vitae, placerat consectetur odio.
-In porta lobortis accumsan. Praesent auctor sem aliquam odio interdum, quis placerat nunc eleifend. Quisque maximus ut dolor eget mattis. Aenean auctor condimentum nisi, vel molestie felis fringilla ac.</description>
-    </item>
-    
-    <item>
-      <title>Projeto 2</title>
-      <link>/projetos/projeto2/</link>
-      <pubDate>Mon, 07 Jan 2019 12:35:11 -0500</pubDate>
-      
-      <guid>/projetos/projeto2/</guid>
-      <description>&amp;lt; voltar para Projetos
-Projeto 2 - lorem
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus et erat ut dolor ullamcorper condimentum. Nulla leo arcu, varius et elit vitae, placerat consectetur odio.
-In porta lobortis accumsan. Praesent auctor sem aliquam odio interdum, quis placerat nunc eleifend. Quisque maximus ut dolor eget mattis. Aenean auctor condimentum nisi, vel molestie felis fringilla ac.</description>
-    </item>
     
   </channel>
 </rss>

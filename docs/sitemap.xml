@@ -3,108 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>/textos/a-poem/</loc>
-    <lastmod>2019-02-01T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
     <loc>/</loc>
-    <lastmod>2019-02-01T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/classic/</loc>
-    <lastmod>2019-02-01T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/poem/</loc>
-    <lastmod>2019-02-01T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/</loc>
-    <lastmod>2019-02-01T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projetos/projeto1/</loc>
-    <lastmod>2019-01-07T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projetos/projeto2/</loc>
-    <lastmod>2019-01-07T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/projetos/</loc>
-    <lastmod>2019-01-07T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/reel_projetos/projeto2/</loc>
-    <lastmod>2019-01-07T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/reel_projetos/</loc>
-    <lastmod>2019-01-07T12:35:11-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/image-post/</loc>
-    <lastmod>2018-05-01T12:41:46-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/blog/</loc>
-    <lastmod>2018-03-16T20:18:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/video-post/</loc>
-    <lastmod>2018-03-16T20:18:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/code/</loc>
-    <lastmod>2018-03-08T20:18:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/long-form-post/</loc>
-    <lastmod>2018-03-08T20:18:53-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/code-poetry/</loc>
-    <lastmod>2018-02-13T13:56:12-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/sobre/</loc>
-    <lastmod>2018-02-13T12:21:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/</loc>
-    <lastmod>2018-02-13T12:21:57-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/dear-jane/</loc>
-    <lastmod>2018-02-11T12:34:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/tags/story/</loc>
-    <lastmod>2018-02-11T12:34:41-05:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>/textos/oh-alice/</loc>
-    <lastmod>2018-02-09T12:32:12-05:00</lastmod>
   </url>
   
   <url>
@@ -112,15 +11,23 @@
   </url>
   
   <url>
+    <loc>/projetos/</loc>
+  </url>
+  
+  <url>
     <loc>/reel/</loc>
   </url>
   
   <url>
-    <loc>/reel_projetos/projeto1/</loc>
+    <loc>/sobre/</loc>
   </url>
   
   <url>
-    <loc>/reel_projetos/projeto3/</loc>
+    <loc>/tags/</loc>
+  </url>
+  
+  <url>
+    <loc>/textos/</loc>
   </url>
   
 </urlset>
